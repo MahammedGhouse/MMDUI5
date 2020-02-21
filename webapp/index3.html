@@ -1,0 +1,59 @@
+<html>
+	<head>
+	<!--	<script src="https://sapui5.hana.ondeman.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+			
+		</script>-->
+		
+		
+<!--				<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+						data-sap-ui-libs="sap.m"
+						data-sap-ui-theme="sap_bluecrystal">
+				
+		</script>-->
+		<script id="mmd-sap-bootstrap"
+				src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal"
+				data-sap-ui-resourceroots='{ "chitti" : "./" }'>
+				
+				
+		</script>
+
+	<script>
+	/*var oMdctrl = new sap.m.Button("idBtn2",
+										{
+											text: "Click Button",
+											icon: "sap-icon://wallet",
+											press: function()
+											{
+												alert("Clicked Button");
+											}
+										}
+										);*/
+										
+		var oView = new sap.ui.view("idMain",{
+							viewName: "chitti.view.main",
+							type: "JS"
+							});
+		
+		oView.placeAt("content");	
+		
+		
+/*					var oView = new sap.ui.view("idMain",{
+				viewName: "chitti.view.main",
+				type : "JS"
+			});
+			oView.placeAt("content");*/
+		</script>
+	</head>
+	
+	<body class="sapUiBody">
+		<div id="content"></div>
+		<p>Hi</p>
+	</body>
+	
+
+	
+</html>

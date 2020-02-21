@@ -1,0 +1,67 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+		  xmlns= "sap.m"
+		  xmlns:layout="sap.ui.layout.form"
+		  controllerName= "cat.controller.myctrl5">
+	
+
+	
+<layout:SimpleForm editable="true"
+					title = "Mohammed"
+					layout="ResponsiveGridLayout"
+					width ="50%">
+	<Title id="idtle5"
+		   text="My Title details">
+		
+	</Title>
+	<Label id="idLab5"
+			text="Enter Amount"
+			required="true"
+			textDirection="RTL"
+			textAlign="Center"
+			width="250px">
+		
+	</Label>
+	
+	<Input	id="idInp5"
+			description="USD"
+			fieldWidth="150px"
+			maxLength="10"
+			submit="inputPressed">
+		
+	</Input>
+	
+	<CheckBox	id="idChb5"
+				text="SAP"
+				selected="true"
+				textAlign="Right"
+				select="cboxPressed">
+		
+	</CheckBox>
+	
+	<Image	id="idImg5"
+			src="Images/Samreen.jpg"
+			width="50%"
+			press="imgPressed">
+		
+	</Image>
+	
+	<Button id="idBtn5"
+			text="Caliculate"
+			icon="sap-icon://accept"
+			type="Accept"
+			iconFirst="false"
+			width="150px" 
+			press="buttonPressed">
+		
+	</Button>
+	
+</layout:SimpleForm>
+
+
+
+
+	
+
+</mvc:View>
+
+

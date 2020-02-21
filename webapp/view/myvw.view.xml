@@ -1,0 +1,10 @@
+<core:View xmlns:core="sap.ui.core.mvc" 
+		   xmlns="sap.m" 
+		   controllerName='four.controller.myctrl4' >
+	<Label text="Enter Your Name:" required="true"></Label>
+	<Input fieldWidth="30%" textAlign="Center" maxLength="5"  type="Password" id="oIp1"></Input>
+	<Input fieldWidth="30%" textAlign="Center" maxLength="3"  type="Number" id="oIp2"></Input>
+	<Input fieldWidth="30%" textAlign="Center" maxLength="5"  type="Time" id="oIp3"></Input>
+	<Button	text="New Button" press="newButton" id="idBtxml"></Button>
+	
+</core:View>

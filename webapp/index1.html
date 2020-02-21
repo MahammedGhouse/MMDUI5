@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		
+		<script>
+		var oCntrlname = new sap.m.Button("idBtn",
+										{
+										text: "Click me",
+										icon: "sap-icon://add-employee",
+										press: function(){
+											alert("vannakam to UI5");
+											
+														}
+										}
+										);
+										
+				oCntrlname.placeAt("content");
+		</script>
+			
+		</head>
+		
+	<body class="sapUiBody">
+		<div id="content"></div>
+		<p>Hello World!</p>
+	</body>
+	
+</html>

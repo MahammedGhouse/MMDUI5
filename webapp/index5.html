@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<script id="mmd-sap-bootstrap5"
+				src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal"
+				data-sap-ui-resourceroots='{ "cat" : "./" }'>
+			
+		</script>
+		
+
+		<script>
+		/*	var oButton = new sap.m.Button("idBtn5",{
+								text:"Caliculate",
+								icon:"sap-icon://accept",	
+								type:"Accept",
+							    iconFirst:false,
+								width:"150px",
+							//TextDirection:"RTL",
+								//enabled:false,
+								press: function(){
+									alert("Hi Mohammed");
+								},
+								tap: function(){ //this one is deprecated
+									alert("Tapped me!!");
+								}
+			});
+			
+			
+			
+			var oInput5 = new sap.m.Input("idInp5",{
+								description:"USD",
+								fieldWidth: "150px",
+								maxLength:10,
+								//valueHelpOnly:true,
+								submit: function(){
+									alert("Enter Input "+ this.idInp5);
+								}
+			});
+			
+			var oLable5 = new sap.m.Label("idLab5", {
+								text:"Enter Amount",
+								required:true,
+								textDirection:"RTL",
+								textAlign:"Center",
+								width:"250px"
+								
+			});
+			var oImage5 = new sap.m.Image("idImg5",{
+						src:"Images/Samreen.jpg",
+						width:"10%",
+						//mode:"Background"
+						press: function(){
+							alert("This is Samreen");
+						}
+			});
+			
+			var oChb5 = new sap.m.CheckBox("idChb5", {
+							text:"SAP",
+							selected:true,
+							textAlign:"Right",
+							//width:"100px",
+							//editable:false,
+							select: function(){
+								alert("SAP is Selected");
+							}
+							
+							
+			});
+			
+			oImage5.placeAt("content");
+			oLable5.placeAt("content");
+			oInput5.placeAt("content");
+			oButton.placeAt("content");
+			oChb5.placeAt("content");*/
+			console.log("Mohd:STOP1");
+			var oView = new sap.ui.view("idV5",{
+							viewName: "cat.view.myview5",
+							type: "JS"
+							});
+						
+						
+			oView.placeAt("content");
+			
+			console.log("Mohd:STOP21");
+			var oView2 = new sap.ui.view("idV2",{
+							viewName: "cat.view.myxmlview5",
+							type: "XML"
+			});
+			
+			oView2.placeAt("content2");
+			
+			console.log("Mohd:STOP22");
+			
+		</script>
+		
+	</head>
+	
+	<body class="sapUiBody">
+		<div id="content"></div>
+		<div id="content2"></div>
+	</body>
+	
+</html>

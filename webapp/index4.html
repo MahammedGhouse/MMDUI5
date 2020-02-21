@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<script id="mmd-sap-bootstrap"
+				src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_belize"
+				data-sap-ui-resourceroots='{ "four" : "./" }'>
+			
+		</script>
+		
+		<script>
+/*		var oMycontrol = new sap.m.Button("idBt",
+											{
+											 icon:"sap-icon://accept",
+											 text:"Accept",
+											 press: function(){
+											 	alert("Button Accepted");
+											 }
+											 });
+											 
+			oMycontrol.placeAt("load");*/
+			console.log("Mohd:STOP1");
+		var oView4 = new sap.ui.view("idView4",
+							{
+							viewName: "four.view.main4",
+							type: "JS"
+							});
+							
+			
+		var oView41 = new sap.ui.view("idView41",
+			{
+				viewName:"four.view.myvw",
+				type:"XML"
+			});
+		
+		   oView4.placeAt("load");
+		   oView41.placeAt("content");	
+			
+		</script>
+		
+	</head>
+	
+	<body class="sapUiBody">
+		<div id="load"></div>
+		<div id ="content"></div>
+		<p>Mohammed Test</p>
+	</body>
+	
+</html>
